@@ -75,3 +75,15 @@
 2021-12-20 18:32:41,472 INFO c.e.d.c.UserController [main] User name set with pluto
 2021-12-20 18:32:41,473 ERROR c.e.d.c.UserController [main] FAIL: password and confirmPassword for username pluto are different
 2021-12-20 18:32:41,473 INFO c.e.d.c.UserController [main] SUCCESS: username username successfully found
+2021-12-20 18:48:41,485 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-20 18:48:41,490 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-20 18:48:41,492 INFO c.e.d.c.OrderController [main] SUCCESS: order id null submitted
+2021-12-20 18:48:41,492 INFO c.e.d.c.OrderController [main] SUCCESS: orders successfully retrieved for username goofy
+2021-12-20 18:48:41,510 ERROR c.e.d.c.UserController [main] FAIL: username blah_blah is not found
+2021-12-20 18:48:41,513 INFO c.e.d.c.UserController [main] User name set with mickey_mouse
+2021-12-20 18:48:41,513 INFO c.e.d.c.UserController [main] SUCCESS: user with username mickey_mouse successfully created
+2021-12-20 18:48:41,515 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-20 18:48:41,515 ERROR c.e.d.c.UserController [main] FAIL: password for username pluto is too short
+2021-12-20 18:48:41,515 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-20 18:48:41,515 ERROR c.e.d.c.UserController [main] FAIL: password and confirmPassword for username pluto are different
+2021-12-20 18:48:41,516 INFO c.e.d.c.UserController [main] SUCCESS: username username successfully found
