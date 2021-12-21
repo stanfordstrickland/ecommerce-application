@@ -87,3 +87,43 @@
 2021-12-20 18:48:41,515 INFO c.e.d.c.UserController [main] User name set with pluto
 2021-12-20 18:48:41,515 ERROR c.e.d.c.UserController [main] FAIL: password and confirmPassword for username pluto are different
 2021-12-20 18:48:41,516 INFO c.e.d.c.UserController [main] SUCCESS: username username successfully found
+2021-12-20 19:02:33,959 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-20 19:02:33,963 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-20 19:02:33,964 INFO c.e.d.c.OrderController [main] SUCCESS: order id null submitted
+2021-12-20 19:02:33,964 INFO c.e.d.c.OrderController [main] SUCCESS: orders successfully retrieved for username goofy
+2021-12-20 19:02:33,978 ERROR c.e.d.c.UserController [main] FAIL: username blah_blah is not found
+2021-12-20 19:02:33,980 INFO c.e.d.c.UserController [main] User name set with mickey_mouse
+2021-12-20 19:02:33,980 INFO c.e.d.c.UserController [main] SUCCESS: user with username mickey_mouse successfully created
+2021-12-20 19:02:33,981 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-20 19:02:33,981 ERROR c.e.d.c.UserController [main] FAIL: password for username pluto is too short
+2021-12-20 19:02:33,981 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-20 19:02:33,981 ERROR c.e.d.c.UserController [main] FAIL: password and confirmPassword for username pluto are different
+2021-12-20 19:02:33,982 INFO c.e.d.c.UserController [main] SUCCESS: username username successfully found
+2021-12-21 11:53:46,166 INFO c.e.d.SareetaApplicationTests [main] Starting SareetaApplicationTests on weeksr-x1nano with PID 339130 (started by weeksr in /home/weeksr/udacity/ecommerce)
+2021-12-21 11:53:46,171 DEBUG c.e.d.SareetaApplicationTests [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-12-21 11:53:46,172 INFO c.e.d.SareetaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-12-21 11:53:48,597 INFO c.e.d.SareetaApplicationTests [main] Started SareetaApplicationTests in 2.613 seconds (JVM running for 3.538)
+2021-12-21 11:53:48,764 ERROR c.e.d.c.UserController [main] FAIL: username blah_blah is not found
+2021-12-21 11:53:48,766 INFO c.e.d.c.UserController [main] User name set with mickey_mouse
+2021-12-21 11:53:48,766 INFO c.e.d.c.UserController [main] SUCCESS: user with username mickey_mouse successfully created
+2021-12-21 11:53:48,766 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-21 11:53:48,766 ERROR c.e.d.c.UserController [main] FAIL: password for username pluto is too short
+2021-12-21 11:53:48,767 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-21 11:53:48,767 ERROR c.e.d.c.UserController [main] FAIL: password and confirmPassword for username pluto are different
+2021-12-21 11:53:48,767 INFO c.e.d.c.UserController [main] SUCCESS: username username successfully found
+2021-12-21 11:53:48,791 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-21 11:53:48,792 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-21 11:53:48,792 INFO c.e.d.c.OrderController [main] SUCCESS: order id null submitted
+2021-12-21 11:53:48,793 INFO c.e.d.c.OrderController [main] SUCCESS: orders successfully retrieved for username goofy
+2021-12-21 11:54:19,558 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-21 11:54:19,564 ERROR c.e.d.c.OrderController [main] FAIL: username I_Don't_Exist is not found
+2021-12-21 11:54:19,565 INFO c.e.d.c.OrderController [main] SUCCESS: order id null submitted
+2021-12-21 11:54:19,565 INFO c.e.d.c.OrderController [main] SUCCESS: orders successfully retrieved for username goofy
+2021-12-21 11:54:19,577 ERROR c.e.d.c.UserController [main] FAIL: username blah_blah is not found
+2021-12-21 11:54:19,579 INFO c.e.d.c.UserController [main] User name set with mickey_mouse
+2021-12-21 11:54:19,579 INFO c.e.d.c.UserController [main] SUCCESS: user with username mickey_mouse successfully created
+2021-12-21 11:54:19,580 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-21 11:54:19,580 ERROR c.e.d.c.UserController [main] FAIL: password for username pluto is too short
+2021-12-21 11:54:19,580 INFO c.e.d.c.UserController [main] User name set with pluto
+2021-12-21 11:54:19,580 ERROR c.e.d.c.UserController [main] FAIL: password and confirmPassword for username pluto are different
+2021-12-21 11:54:19,581 INFO c.e.d.c.UserController [main] SUCCESS: username username successfully found

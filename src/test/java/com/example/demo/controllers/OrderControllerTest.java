@@ -12,6 +12,7 @@ import org.junit.Test;
 import org.springframework.http.ResponseEntity;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 import static junit.framework.TestCase.*;
@@ -70,17 +71,19 @@ public class OrderControllerTest {
     public void testGetOrdersForUserHappyPath() {
         User user = createUser();
         when(userRepository.findByUsername("goofy")).thenReturn(user);
-        when(orderRepository.findByUser(user)).thenReturn(List.of(UserOrder.createFromCart(user.getCart())));
+        List<UserOrder> userOrders = new ArrayList<>();
+        userOrders.add(UserOrder.createFromCart(user.getCart()));
+        when(orderRepository.findByUser(user)).thenReturn(userOrders);
 
         ResponseEntity<List<UserOrder>> listUserOrderResponse = orderController.getOrdersForUser("goofy");
         assertNotNull(listUserOrderResponse);
         assertEquals(200, listUserOrderResponse.getStatusCodeValue());
 
-        List<UserOrder> userOrders = listUserOrderResponse.getBody();
-        assertNotNull(userOrders);
-        assertEquals(1, userOrders.size());
+        List<UserOrder> returnedUserOrders = listUserOrderResponse.getBody();
+        assertNotNull(returnedUserOrders);
+        assertEquals(1, returnedUserOrders.size());
 
-        UserOrder userOrder = userOrders.get(0);
+        UserOrder userOrder = returnedUserOrders.get(0);
         assertNotNull(userOrder);
         assertNull(userOrder.getId());
         assertEquals(17.99, userOrder.getTotal().doubleValue());
